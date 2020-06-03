@@ -1,8 +1,7 @@
 :root {
-    --primario: 
     color: #212121;
 }
-/*Esto es para las custom variables, y se almacenan al 
+/* --oscuro: #212121  Esto es para las custom variables, y se almacenan al 
 principio del proyecto. Aqui las usare para crear colores.*/
 
 html {
