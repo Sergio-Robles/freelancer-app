@@ -1,7 +1,7 @@
 :root {
     color: #212121;
 }
-/* --oscuro: #212121  Esto es para las custom variables, y se almacenan al 
+/* custom property: --oscuro: #212121 por ejemplo. Esto es para las custom variables, y se almacenan al 
 principio del proyecto. Aqui las usare para crear colores.*/
 
 html {
@@ -12,7 +12,7 @@ html {
     los pixeles porque la densidad de pantalla de los nuevos dispositivos
     es mayor, por lo que se veria extraño con px. Los rem se adapta mejor. El
     62.5% es porque por default los navegadores intentar rendear a 16px
-    y el 62.5% de 16 es 10. Por eso, 1.6rem = a 6px. El 1.6rem lo 
+    y el 62.5% de 16 es 10. Por eso, 1.6rem = a 16px. El 1.6rem lo 
     pondremos en la etiqueta de body. */
 }
 *, *:before, *:after {
@@ -29,6 +29,12 @@ body {
     min-height es para que coja todo el espacio. Tambien se pondra en
     la etiqueta html en la parte de arriba.*/
     font-size: 1.6rem;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+h2, h3 {
+    text-align: center;
 }
 .site-header nav {
     max-width: 1200px;
@@ -117,5 +123,16 @@ body {
     border-radius: .4rem;
 }
 
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.servicios {
+    margin-top: 3rem;
+}
 
 
